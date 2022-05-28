@@ -9,4 +9,4 @@ step 2 - import project
 step 3 - run and follow instruction
 
 
-HAve fun :0
+Have fun :0
