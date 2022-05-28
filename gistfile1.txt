@@ -1,0 +1,14 @@
+import random
+
+chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKMNOPQRSTUVWXYZ123456789!@#$*&"
+
+while 1:
+    passwword_len = int(input("WWhat lenght would you like your passwordto be : "))
+    passwword_count = int(input("how many passwords would you like : "))
+    for x in range(0,passwword_count):
+        password = ""  
+        for x in range(0,passwword_len):
+            password_char = random.choice(chars)
+            print(password_char)
+            password   = password + password_char
+            print("Here is your password : ", password)
